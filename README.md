@@ -3,3 +3,6 @@ This is an **unofficial** PKGBUILD for building a grsecurity hardened kernel for
 
 > **Warning:**
 > This package may not be updated on a regular basis. It is mainly kept as reference, for more information see: http://archlinuxarm.org/forum/viewtopic.php?f=23&t=9052
+
+
+Since the paywall strategy of the offical of Grsecurity,I've merged some changes (a.k.a change the address of fetching the grsecurity patches),and due to some reasons I've done some optimization dedicated to adapt the China's network to make the process faster than original one.
