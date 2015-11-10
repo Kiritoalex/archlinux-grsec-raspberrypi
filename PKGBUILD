@@ -20,14 +20,14 @@ makedepends=('xmlto' 'docbook-xsl' 'kmod' 'inetutils' 'bc' 'git')
 options=('!strip')
 
 source=(
-        "https://www.kernel.org/pub/linux/kernel/v4.x/linux-${pkgver}.tar.xz"
-        "https://www.kernel.org/pub/linux/kernel/v4.x/linux-${pkgver}.tar.sign"
+        "https://mirrors.ustc.edu.cn/linux-kernel/v4.x/linux-4.1.7.tar.xz"
+        "https://mirrors.ustc.edu.cn/linux-kernel/v4.x/linux-4.1.7.tar.sign"
         "https://grsecurity.net/test/${_grsec_patch}"
         "https://grsecurity.net/test/${_grsec_patch}.sig"
         "raspberrypi.patch"
-        "ftp://teambelgium.net/bfq/patches/${pkgver%.*}.0-${_bfqver}/0001-block-cgroups-kconfig-build-bits-for-BFQ-${_bfqver}-${pkgver%.*}.patch"
-        "ftp://teambelgium.net/bfq/patches/${pkgver%.*}.0-${_bfqver}/0002-block-introduce-the-BFQ-${_bfqver}-I-O-sched-for-${pkgver%.*}.patch"
-        "ftp://teambelgium.net/bfq/patches/${pkgver%.*}.0-${_bfqver}/0003-block-bfq-add-Early-Queue-Merge-EQM-to-BFQ-${_bfqver}-for-${pkgver%.*}.0.patch"
+        "https://teambelgium.net/bfq/patches/${pkgver%.*}.0-${_bfqver}/0001-block-cgroups-kconfig-build-bits-for-BFQ-${_bfqver}-${pkgver%.*}.patch"
+        "https://teambelgium.net/bfq/patches/${pkgver%.*}.0-${_bfqver}/0002-block-introduce-the-BFQ-${_bfqver}-I-O-sched-for-${pkgver%.*}.patch"
+        "https://teambelgium.net/bfq/patches/${pkgver%.*}.0-${_bfqver}/0003-block-bfq-add-Early-Queue-Merge-EQM-to-BFQ-${_bfqver}-for-${pkgver%.*}.0.patch"
         'config.txt'
         'cmdline.txt'
         'config.v6'
